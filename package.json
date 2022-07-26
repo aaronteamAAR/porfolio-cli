@@ -1,8 +1,11 @@
 {
-  "name": "clifirst",
+  "name": "porfolio-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "  A command line interface for my Porfolio",
   "main": "bin/index.js",
+  "bin": {
+    "clifirst": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +15,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronteamAAR/commandline-tool/issues"
+  },
+  "homepage": "https://github.com/aaronteamAAR/commandline-tool#readme"
 }
